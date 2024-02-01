@@ -1,0 +1,61 @@
+/* This will be covered in further sessions */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/musical-night-bg.png");
+    background-size: cover;
+    height: 350vh;
+    padding-top: 50px;
+}
+
+.card {
+    background-color: #ffffff;
+    margin: auto;
+    width: 90%;
+    border-radius: 5px;
+    padding-top: 10px;
+
+}
+
+.heading {
+    font-family: "Roboto";
+    color: #12022f;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.card-body {
+    min-width: 150px;
+    overflow: auto;
+    border-top: 1px solid #d3d3d3;
+    padding: 10px;
+
+}
+
+.image {
+    max-width: 400px;
+    border-radius: 25px;
+}
+
+.heading-1 {
+    font-weight: bold;
+    font-family: "Roboto";
+    color: #12022f;
+}
+
+.para-2 {
+    color: #594d6d;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.image-singer {
+    max-width: 200px;
+    padding: 8px;
+}
